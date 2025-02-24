@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css"> 
+  <style>
+  body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+ 
+  background-image: url("Images/lanadelrey1.jpg");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.5;
+}
+    body { margin: 0; }
+    #music {
+      background-color: black;
+      color: white;
+      padding: 20px 10px;
+      text-align: left;
+      margin-bottom: 0;
+    }
+    ul.sidenav {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      width: 25%;
+      background-color: #ffffff;
+      position: fixed;
+      height: 100%;
+      overflow: auto;
+    }
+    ul.sidenav li a {
+      display: block;
+      color: #000;
+      padding: 15px 20px;
+      text-decoration: none;
+    }
+    ul.sidenav li a.active {
+      background-color: #000000;
+      color: white;
+    }
+    ul.sidenav li a:hover:not(.active) {
+      background-color: #555;
+      color: white;
+    }
+    div.content {
+      margin-left: 25%;
+      padding: 1px 16px;
+      height: 1000px;
+    }
+    @media screen and (max-width: 900px) {
+      ul.sidenav {
+        width: 100%;
+        height: auto;
+        position: relative;
+      }
+      ul.sidenav li a {
+        float: left;
+        padding: 15px;
+      }
+      div.content { margin-left: 0; }
+    }
+    @media screen and (max-width: 400px) {
+      ul.sidenav li a {
+        text-align: center;
+        float: none;
+      }
+    }
+    footer {
+      text-align: center;
+      padding: 3px;
+      background-color: white;
+      color: black;
+    }
+    .button-container {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .w3-card {
+      background-color: white;
+      width: 30%;
+      margin-bottom: 30px;
+    }
+    .container {
+      text-align: right;
+    }
+  </style>
+</head>
+<body style="background-color: black;">
+
+  <ul class="sidenav">
+    <li><a class="active" href="#home">Home</a></li>
+    <li><a href="#music">Music</a></li>
+    <li><a href="#latestnews">Latest News</a></li>
+  </ul>
+
+  <header>
+    <div class="w3-container">
+      <div class="content">
+        <h2 style="color:white; font-family: 'Snell Roundhand', cursive; font-size: 60px; text-align: center;">Music</h2>
+        <p style="color:white; font-family: 'Optima', sans-serif; text-align: center;">Indulge in Lana Del Rey's melancholic hits.</p>
+        
+        
+        <div class="w3-container button-container">
+       
+         
+          <div class="w3-card">
+            <figure>
+              <img src="Images/borntodie.jpg" alt="Born to Die" style="width:100%">
+              <figcaption>
+                <h4><b>Born to Die</b></h4>
+                <p>Release date: January 27th, 2012</p>
+                <p style="font-size: 10px;">Songs: Born To Die, Off to the Races, Blue Jeans, Video Games, Diet Mountain Dew, National Anthem, Dark Paradise, Radio, Carmen, Million Dollar Man, Summertime Sadness, This Is What Makes Us Girls</p>
+          <p style="font-size: 7px;">https://en.wikipedia.org/wiki/Born_to_Die</p>
+              </figcaption>
+            </figure>
+          </div>
+
+          
+          <div class="w3-card">
+            <figure>
+              <img src="Images/lustforlife.webp" alt="Lust for Life" style="width:100%">
+              <figcaption>
+                <h4><b>Lust for Life</b></h4>
+                <p>Release date: June 21, 2017</p>
+                <p style="font-size: 10px;">Songs: Love, Lust for Life (Ft. The Weeknd), 13 Beaches, Cherry, White Mustang, Summer Bummer (Ft. A$AP Rocky Playboi Carti), Groupie Love (Ft. A$AP Rocky), In My Feelings, Coachella - Woodstock in My Mind, God Bless America - and All the Beautiful Women in It, When the World Was at War We Kept Dancing, Beautiful People Beautiful Problems (Ft. Stevie Nicks), Tomorrow Never Came (Ft. Sean Lennon), Heroin, Change, Get Free</p>
+                <p style="font-size: 7px;">https://pitchfork.com/reviews/albums/lana-del-rey-lust-for-life/</p>
+              </figcaption>
+            </figure>
+          </div>
+
+         
+          <div class="w3-card">
+            <figure>
+              <p><a href="https://en.wikipedia.org/wiki/Honeymoon_%28Lana_Del_Rey_album%29">
+                <img src="Images/honeymoon.png" alt="Honeymoon" style="width:100%">
+              </a></p>
+              <figcaption>
+                <h4><b>Honeymoon</b></h4>
+                <p>Release date: September 18th, 2015</p>
+                <p style="font-size: 10px;">Songs: Honeymoon, Music to Watch Boys To, Terrence Loves You, God Knows I Tried, High By The Beach, Freak, Art Deco, Burnt Norton (Interlude), Religion, Salvatore, The Blackest Day, 24, Swan Song, Don't Let Me Be Misunderstood</p>
+                <p style="font-size: 7px;">https://theithacan.org/7153/life-culture/reviews/lana-del-reys-somber-songs-satisfy-on-honeymoon/</p>
+              </figcaption>
+            </figure>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <footer>
+    <p>By: Marianne Pearce</p>
+  </footer>
+
+</body>
+</html>
