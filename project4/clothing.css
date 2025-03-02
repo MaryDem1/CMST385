@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="css/style.css">
+
+<style>
+
+body {
+  font-family: "Monospace", Lucida Console;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #FA8072;
+  overflow: hidden;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #FA8072;
+}
+
+ul li a.active {
+  background-color: #FA8072;
+}
+
+header {
+  text-align: center;
+  padding: 10px 0;
+  font-size: 24px;
+  background-color: #f2f2f2;
+  background-image: url('Images/marguerite-.jpg'); 
+  background-size: cover;  
+  background-position: center; 
+  opacity: 0.9;
+  
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 16px;
+  background-color: #f2f2f2;
+}
+
+.container {
+  padding: 20px;
+  text-align: center;
+}
+
+
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+
+div.gallery {
+  margin: 10px;
+  border: 1px solid #ccc;
+  width: 180px;
+  text-align: center;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.gallery .desc {
+  padding: 15px;
+  text-align: center;
+  font-size: 16px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: #FA8072;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #FA8072;
+  overflow: hidden;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #f2f2f2;
+  color: #FA8072;
+}
+
+ul li a.active {
+  background-color: #FA8072;
+}
+
+</style>
+</head>
+<body>
+
+<header>
+  <p>Floral Fun</p>
+</header>
+
+<ul>
+  <li><a class="active" href="index.html">Home</a></li>
+  <li><a href="clothing.html">Clothing</a></li>
+  <li><a href="cart.html">Cart</a></li>
+  <li><a href="contact.html">Contact</a></li>
+</ul>
+
+
+<h1>Top Sellers</h1>
+
+<hr>
+
+<div class="gallery-container">
+
+  <div class="gallery">
+    <a target="_blank" href="Images/woman-6115105_1280.jpg">
+      <img src="Images/woman-6115105_1280.jpg" alt="Blue Dress" width="600" height="400">
+    </a>
+    <div class="desc">$19.99</div>
+    <div class="desc">Flowy design of flowers.</div>
+    <p> https://www.pexels.com/ </p>
+    <button class="button button1">Add to Cart</button>
+  </div>
+
+
+  <div class="gallery">
+  <div class="gallery-content">
+    <a target="_blank" href="Images/woman-4642707_1280.jpg">
+      <img src="Images/woman-4642707_1280.jpg" alt="Blouse">
+    </a>
+    <div class="desc">$14.00</div>
+    <div class="desc">A flowy and casual blouse.</div>
+    <p> https://www.pexels.com/ </p>
+    <button class="button button1">Add to Cart</button>
+  </div>
+</div>
+
+  
+  <div class="gallery">
+    <a target="_blank" href="Images/girl-3788569_1280.jpg">
+      <img src="Images/girl-3788569_1280.jpg" alt="Girl in white" width="600" height="400">
+    </a>
+    <div class="desc">$12.00</div>
+    <div class="desc">Laced dress perfect for social events.</div>
+    <p> https://www.pexels.com/ </p>
+    <button class="button button1">Add to Cart</button>
+  </div>
+
+  
+  <div class="gallery">
+    <a target="_blank" href="Images/dress-7978097_1280.jpg">
+      <img src="Images/dress-7978097_1280.jpg" alt="Blue Long Dress" width="600" height="400">
+    </a>
+    <div class="desc">$10.50</div>
+    <div class="desc">Beautiful blue dress for events and gatherings!</div>
+    <p> https://www.pexels.com/ </p>
+    <button class="button button1">Add to Cart</button>
+  </div>
+</div>
+
+<footer>
+  <p>Contact us at: <a href="mailto:mpearce10@umgc.edu">mpearce10@umgc.edu</a></p>
+</footer>
+
+</body>
+</html>
